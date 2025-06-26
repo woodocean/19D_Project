@@ -1,4 +1,5 @@
 "./adc_multiple_soc_epwm.obj"
+"./syscfg/board.obj"
 "./device/F2837xD_CodeStartBranch.obj"
 "./device/device.obj"
 "../2837xD_RAM_lnk_cpu1.cmd"

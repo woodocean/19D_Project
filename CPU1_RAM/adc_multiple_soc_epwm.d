@@ -83,6 +83,8 @@ adc_multiple_soc_epwm.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/dr
 adc_multiple_soc_epwm.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/inc/hw_upp.h
 adc_multiple_soc_epwm.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/version.h
 adc_multiple_soc_epwm.obj: D:/ti/CCS_workspace/adc_soc_multiple_epwm/device/device.h
+adc_multiple_soc_epwm.obj: syscfg/board.h
+adc_multiple_soc_epwm.obj: D:/ti/CCS_workspace/adc_soc_multiple_epwm/device/device.h
 
 ../adc_multiple_soc_epwm.c:
 
@@ -247,6 +249,10 @@ D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/upp.h:
 D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/inc/hw_upp.h:
 
 D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/version.h:
+
+D:/ti/CCS_workspace/adc_soc_multiple_epwm/device/device.h:
+
+syscfg/board.h:
 
 D:/ti/CCS_workspace/adc_soc_multiple_epwm/device/device.h:
 
