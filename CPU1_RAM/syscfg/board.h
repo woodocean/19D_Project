@@ -47,16 +47,8 @@
 #define myADC1_BASE ADCB_BASE
 #define myADC1_RESULT_BASE ADCBRESULT_BASE
 
-
-// Interrupt Setings for INT_myADC0_1
-#define INT_myADC0_1 INT_ADCA1
-#define INT_myADC0_1_INTERRUPT_ACK_GROUP INTERRUPT_ACK_GROUP1
-extern __interrupt void ADC_ISR(void);
-
-
 void	Board_init();
 void	ADC_init();
-void	INTERRUPT_init();
 void	PinMux_init();
 
 #endif  // end of BOARD_H definition

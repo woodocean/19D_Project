@@ -39,7 +39,6 @@ void Board_init()
 
 	PinMux_init();
 	ADC_init();
-	INTERRUPT_init();
 
 	EDIS;
 }
@@ -78,20 +77,11 @@ void ADC_init(){
 	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
 	ADC_setupSOC(myADC0_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN0, 15U);
 	ADC_setInterruptSOCTrigger(myADC0_BASE, ADC_SOC_NUMBER0, ADC_INT_SOC_TRIGGER_NONE);
-	// Start of Conversion 1 Configuration
-	// Configures a start-of-conversion (SOC) in the ADC and its interrupt SOC trigger.
-	// 	  	SOC number		: 1
-	//	  	Trigger			: ADC_TRIGGER_EPWM1_SOCA
-	//	  	Channel			: ADC_CH_ADCIN2
-	//	 	Sample Window	: 15 SYSCLK cycles
-	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
-	ADC_setupSOC(myADC0_BASE, ADC_SOC_NUMBER1, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN2, 15U);
-	ADC_setInterruptSOCTrigger(myADC0_BASE, ADC_SOC_NUMBER1, ADC_INT_SOC_TRIGGER_NONE);
 	// ADC Interrupt 1 Configuration
-	// 		SOC/EOC number	: 1
+	// 		SOC/EOC number	: 0
 	// 		Interrupt Source: enabled
 	// 		Continuous Mode	: disabled
-	ADC_setInterruptSource(myADC0_BASE, ADC_INT_NUMBER1, ADC_SOC_NUMBER1);
+	ADC_setInterruptSource(myADC0_BASE, ADC_INT_NUMBER1, ADC_SOC_NUMBER0);
 	ADC_enableInterrupt(myADC0_BASE, ADC_INT_NUMBER1);
 	ADC_clearInterruptStatus(myADC0_BASE, ADC_INT_NUMBER1);
 	ADC_disableContinuousMode(myADC0_BASE, ADC_INT_NUMBER1);
@@ -124,21 +114,5 @@ void ADC_init(){
 	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
 	ADC_setupSOC(myADC1_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN2, 15U);
 	ADC_setInterruptSOCTrigger(myADC1_BASE, ADC_SOC_NUMBER0, ADC_INT_SOC_TRIGGER_NONE);
-	// Start of Conversion 1 Configuration
-	// Configures a start-of-conversion (SOC) in the ADC and its interrupt SOC trigger.
-	// 	  	SOC number		: 1
-	//	  	Trigger			: ADC_TRIGGER_EPWM1_SOCA
-	//	  	Channel			: ADC_CH_ADCIN3
-	//	 	Sample Window	: 15 SYSCLK cycles
-	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
-	ADC_setupSOC(myADC1_BASE, ADC_SOC_NUMBER1, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN3, 15U);
-	ADC_setInterruptSOCTrigger(myADC1_BASE, ADC_SOC_NUMBER1, ADC_INT_SOC_TRIGGER_NONE);
 
 }
-void INTERRUPT_init(){
-	
-	// Interrupt Setings for INT_myADC0_1
-	Interrupt_register(INT_myADC0_1, &ADC_ISR);
-	Interrupt_enable(INT_myADC0_1);
-}
-
