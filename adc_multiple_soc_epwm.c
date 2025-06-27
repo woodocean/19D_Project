@@ -5,21 +5,24 @@
 //
 // 宏定义
 //
+#define TBCLK                   100000000
 #define RESULTS_BUFFER_SIZE     256
 #define EX_ADC_RESOLUTION       12
+#define DISCARD                 3
 //
 //全局变量
 //
 uint16_t adcAResults[RESULTS_BUFFER_SIZE];   // 待测电路输入端
 uint16_t adcBResults[RESULTS_BUFFER_SIZE];  //  待测电路输出端，与输入端测量需要同步
-uint16_t adcCResults1[RESULTS_BUFFER_SIZE]; //  测量仪器内部，靠近待测电路输入端，与adcCResults2不需要同步
-uint16_t adcCResults2[RESULTS_BUFFER_SIZE];//   测量仪器内部，靠近待测电路输出端
+uint16_t adcAResults1[RESULTS_BUFFER_SIZE]; //  测量仪器内部，靠近待测电路输入端，与adcBResults1不需要同步
+uint16_t adcBResults1[RESULTS_BUFFER_SIZE];//   测量仪器内部，靠近待测电路输出端
 uint16_t index;                              // 数组序号
 volatile uint16_t bufferFull;                // 满标志位
+volatile uint16_t discard;                   //舍弃标志位，舍弃一开始采样的异常值
 //
 // 函数声明
 void initEPWM(void);    //ePWM好像不能用syscfg配置频率，所以摘了例程的函数
-
+void SetSamplingRate(uint32_t freq);
 
 void main(void)
 {
@@ -41,8 +44,8 @@ void main(void)
     {
         adcAResults[index] = 0;
         adcBResults[index] = 0;
-        adcCResults1[index] = 0;
-        adcCResults2[index] = 0;
+        adcAResults1[index] = 0;
+        adcBResults1[index] = 0;
     }
     index = 0;
     bufferFull = 0;
@@ -66,6 +69,7 @@ void main(void)
         //开启ePWM的SOCA触发，同时也开启ePWM计数器
         //
         bufferFull = 0;     // Clear the buffer full flag
+        SetSamplingRate(750000);
         EPWM_enableADCTrigger(EPWM1_BASE, EPWM_SOC_A);
         EPWM_setTimeBaseCounterMode(EPWM1_BASE, EPWM_COUNTER_MODE_UP);
 
@@ -114,6 +118,13 @@ void initEPWM(void)
     EPWM_setTimeBaseCounterMode(EPWM1_BASE, EPWM_COUNTER_MODE_STOP_FREEZE);
 }
 
+void SetSamplingRate(uint32_t freq){
+
+    freq = TBCLK/freq;
+
+    EPWM_setCounterCompareValue(EPWM1_BASE, EPWM_COUNTER_COMPARE_A, freq/2);
+    EPWM_setTimeBasePeriod(EPWM1_BASE, freq -1);
+}
 
 //ADC中断函数
 __interrupt void ADC_ISR(void)
@@ -123,15 +134,21 @@ __interrupt void ADC_ISR(void)
 
             adcAResults[index] = ADC_readResult(ADCARESULT_BASE, ADC_SOC_NUMBER0);
             adcBResults[index] = ADC_readResult(ADCBRESULT_BASE, ADC_SOC_NUMBER0);
-            adcCResults1[index] = ADC_readResult(ADCCRESULT_BASE, ADC_SOC_NUMBER0);
-            adcCResults2[index] = ADC_readResult(ADCCRESULT_BASE, ADC_SOC_NUMBER1);
+            adcAResults1[index] = ADC_readResult(ADCARESULT_BASE, ADC_SOC_NUMBER1);
+            adcBResults1[index] = ADC_readResult(ADCBRESULT_BASE, ADC_SOC_NUMBER1);
             index ++;
+
+            if((DISCARD <= index)&&(0 == discard)){
+                index = 0;
+                discard = 1;
+            }
 
             //数组满，标志位置高--数据待处理
             if(RESULTS_BUFFER_SIZE <= index)
             {
                 index = 0;
                 bufferFull = 1;
+                discard = 0;
             }
     }
 
