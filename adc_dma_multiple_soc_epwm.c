@@ -1,6 +1,7 @@
 #include "driverlib.h"
 #include "device.h"
 #include "board.h"
+#include "gpio.h"
 
 //
 // 宏定义
@@ -8,17 +9,16 @@
 #define TBCLK                   100000000
 #define RESULTS_BUFFER_SIZE     256
 #define EX_ADC_RESOLUTION       12
-//#define DISCARD                 3
+#define DISCARD                 5
 //
 //全局变量
 //
 #pragma DATA_SECTION(adcAResults, "ramgs0");
 #pragma DATA_SECTION(adcBResults, "ramgs0");
-uint16_t adcAResults[RESULTS_BUFFER_SIZE];   // 待测电路输入端 或 电路测量仪内部测量点
-uint16_t adcBResults[RESULTS_BUFFER_SIZE];  //  待测电路输出端 或 电路测量仪内部测量点
+uint16_t adcAResults[RESULTS_BUFFER_SIZE + DISCARD];   // 待测电路输入端 或 电路测量仪内部测量点
+uint16_t adcBResults[RESULTS_BUFFER_SIZE + DISCARD];  //  待测电路输出端 或 电路测量仪内部测量点
 uint16_t index;                              // 数组序号
 volatile uint16_t bufferFull;                // 满标志位
-//volatile uint16_t discard;                   //舍弃标志位，舍弃一开始采样的异常值
 //
 // 函数声明
 void initEPWM(void);    //ePWM好像不能用syscfg配置频率，所以摘了例程的函数
@@ -27,6 +27,7 @@ void initializeDMA(void);
 void configureDMAChannels(void);
 void INTERRUPT_init();
 __interrupt void dmach1ISR(void);
+void Filt_avg(uint16_t* data,uint16_t DATASIZE);
 void main(void)
 {
     //
@@ -38,7 +39,6 @@ void main(void)
     Interrupt_initVectorTable();
 
     Board_init();
-    ADC_init();
     INTERRUPT_init();
     initializeDMA();
     configureDMAChannels();
@@ -75,7 +75,7 @@ void main(void)
         DMA_startChannel(DMA_CH2_BASE);
         //开启ePWM的SOCA触发，同时也开启ePWM计数器
         bufferFull = 0;     // Clear the buffer full flag
-        SetSamplingRate(500000);
+        SetSamplingRate(800000);
         EPWM_enableADCTrigger(EPWM1_BASE, EPWM_SOC_A);
         EPWM_setTimeBaseCounterMode(EPWM1_BASE, EPWM_COUNTER_MODE_UP);
 
@@ -91,6 +91,8 @@ void main(void)
         /*2.1.此处进行数据分析
         *
         * */
+        Filt_avg(adcAResults,RESULTS_BUFFER_SIZE + DISCARD);
+        Filt_avg(adcBResults,RESULTS_BUFFER_SIZE + DISCARD);
 
         /*采样2*/
         //开启DMA
@@ -98,7 +100,7 @@ void main(void)
         DMA_startChannel(DMA_CH2_BASE);
 
         bufferFull = 0;     // Clear the buffer full flag
-        SetSamplingRate(200000);
+        SetSamplingRate(2500000);
         EPWM_enableADCTrigger(EPWM1_BASE, EPWM_SOC_A);
         EPWM_setTimeBaseCounterMode(EPWM1_BASE, EPWM_COUNTER_MODE_UP);
 
@@ -112,6 +114,8 @@ void main(void)
         /*2.2.此处进行数据分析
          *
          * */
+        Filt_avg(adcAResults,RESULTS_BUFFER_SIZE + DISCARD);
+        Filt_avg(adcBResults,RESULTS_BUFFER_SIZE + DISCARD);
 
         /*3.此处进行屏幕显示
                  *
@@ -124,6 +128,8 @@ void main(void)
 //ePWM配置，主要是频率配置
 void initEPWM(void)
 {
+    GPIO_setPinConfig(GPIO_0_EPWM1A);
+
     //
     // Disable SOCA
     //
@@ -135,14 +141,20 @@ void initEPWM(void)
 
     //这两句表明，ePWM波计数器周期为200（个TBCLK），设置COMPA的值为100
     EPWM_setCounterCompareValue(EPWM1_BASE, EPWM_COUNTER_COMPARE_A, 100);
+    EPWM_setActionQualifierAction(EPWM1_BASE,
+                                  EPWM_AQ_OUTPUT_A,
+                                  EPWM_AQ_OUTPUT_LOW,
+                                  EPWM_AQ_OUTPUT_ON_TIMEBASE_ZERO);
+    EPWM_setActionQualifierAction(EPWM1_BASE,
+                                      EPWM_AQ_OUTPUT_A,
+                                      EPWM_AQ_OUTPUT_HIGH,
+                                      EPWM_AQ_OUTPUT_ON_TIMEBASE_UP_CMPA);
     EPWM_setTimeBasePeriod(EPWM1_BASE, 199);
 
 
     EPWM_setClockPrescaler(EPWM1_BASE,
                            EPWM_CLOCK_DIVIDER_1,
                            EPWM_HSCLOCK_DIVIDER_1);
-
-
     EPWM_setTimeBaseCounterMode(EPWM1_BASE, EPWM_COUNTER_MODE_STOP_FREEZE);
 
 }
@@ -181,9 +193,9 @@ void configureDMAChannels(void)
 
     //
     // Perform enough 16-word bursts to fill the results buffer. Data will be
-    // transferred 32 bits at a time hence the address steps below.
+    // transferred 16 bits at a time hence the address steps below.
     //
-    DMA_configBurst(DMA_CH1_BASE, 1, 1, 1);
+    DMA_configBurst(DMA_CH1_BASE, 1, 0, 0);
     DMA_configTransfer(DMA_CH1_BASE, (RESULTS_BUFFER_SIZE),0, 1);
     DMA_configMode(DMA_CH1_BASE, DMA_TRIGGER_ADCA1,
                    (DMA_CFG_ONESHOT_DISABLE | DMA_CFG_CONTINUOUS_DISABLE |
@@ -194,17 +206,17 @@ void configureDMAChannels(void)
     DMA_setInterruptMode(DMA_CH1_BASE, DMA_INT_AT_END);
     DMA_enableInterrupt(DMA_CH1_BASE);
 
-    //
+   //
     // DMA channel 2 set up for ADCB
     //
     DMA_configAddresses(DMA_CH2_BASE, (uint16_t *)&adcBResults,
-                        (uint16_t *)ADCBRESULT_BASE);
+                        (uint16_t *)ADCCRESULT_BASE);
 
     //
     // Perform enough 16-word bursts to fill the results buffer. Data will be
     // transferred 32 bits at a time hence the address steps below.
     //
-    DMA_configBurst(DMA_CH2_BASE, 1, 1, 1);
+    DMA_configBurst(DMA_CH2_BASE, 1, 0, 0);
     DMA_configTransfer(DMA_CH2_BASE, (RESULTS_BUFFER_SIZE), 0, 1);
     DMA_configMode(DMA_CH2_BASE, DMA_TRIGGER_ADCA1,
                    (DMA_CFG_ONESHOT_DISABLE | DMA_CFG_CONTINUOUS_DISABLE |
@@ -221,9 +233,17 @@ void INTERRUPT_init(){
 }
 __interrupt void dmach1ISR(void){
     bufferFull = 1;
-
     //
     // Acknowledge interrupt
     //
     Interrupt_clearACKGroup(INTERRUPT_ACK_GROUP7);
+}
+void Filt_avg(uint16_t* data,uint16_t DATASIZE){
+    uint16_t i;
+    for(i=1;i<DATASIZE;i+=2){
+        data[i] = (data[i-1] + data[i+1])/2;
+    }
+    for(i=0;i<DATASIZE - DISCARD;i++){
+        data[i] = data[i + DISCARD];
+    }
 }

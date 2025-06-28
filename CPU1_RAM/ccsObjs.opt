@@ -1,4 +1,5 @@
-"./adc_multiple_soc_epwm.obj"
+"./adc_dma_multiple_soc_epwm.obj"
+"./gpio.obj"
 "./syscfg/board.obj"
 "./device/F2837xD_CodeStartBranch.obj"
 "./device/device.obj"

@@ -44,8 +44,8 @@
 
 #define myADC0_BASE ADCA_BASE
 #define myADC0_RESULT_BASE ADCARESULT_BASE
-#define myADC1_BASE ADCB_BASE
-#define myADC1_RESULT_BASE ADCBRESULT_BASE
+#define myADC1_BASE ADCC_BASE
+#define myADC1_RESULT_BASE ADCCRESULT_BASE
 
 void	Board_init();
 void	ADC_init();

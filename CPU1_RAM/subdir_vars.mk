@@ -16,7 +16,8 @@ D:/ti/c2000/C2000Ware_4_00_00_00/libraries/calibration/hrpwm/f2837xd/lib/SFO_v8_
 D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/ccs/Debug/driverlib.lib 
 
 C_SRCS += \
-../adc_multiple_soc_epwm.c \
+../adc_dma_multiple_soc_epwm.c \
+../gpio.c \
 ./syscfg/board.c 
 
 GEN_FILES += \
@@ -26,11 +27,13 @@ GEN_MISC_DIRS += \
 ./syscfg/ 
 
 C_DEPS += \
-./adc_multiple_soc_epwm.d \
+./adc_dma_multiple_soc_epwm.d \
+./gpio.d \
 ./syscfg/board.d 
 
 OBJS += \
-./adc_multiple_soc_epwm.obj \
+./adc_dma_multiple_soc_epwm.obj \
+./gpio.obj \
 ./syscfg/board.obj 
 
 GEN_MISC_FILES += \
@@ -42,7 +45,8 @@ GEN_MISC_DIRS__QUOTED += \
 "syscfg\" 
 
 OBJS__QUOTED += \
-"adc_multiple_soc_epwm.obj" \
+"adc_dma_multiple_soc_epwm.obj" \
+"gpio.obj" \
 "syscfg\board.obj" 
 
 GEN_MISC_FILES__QUOTED += \
@@ -51,14 +55,16 @@ GEN_MISC_FILES__QUOTED += \
 "syscfg\adc.dot" 
 
 C_DEPS__QUOTED += \
-"adc_multiple_soc_epwm.d" \
+"adc_dma_multiple_soc_epwm.d" \
+"gpio.d" \
 "syscfg\board.d" 
 
 GEN_FILES__QUOTED += \
 "syscfg\board.c" 
 
 C_SRCS__QUOTED += \
-"../adc_multiple_soc_epwm.c" \
+"../adc_dma_multiple_soc_epwm.c" \
+"../gpio.c" \
 "./syscfg/board.c" 
 
 SYSCFG_SRCS__QUOTED += \

@@ -80,11 +80,11 @@ void ADC_init(){
 	// ADC Interrupt 1 Configuration
 	// 		SOC/EOC number	: 0
 	// 		Interrupt Source: enabled
-	// 		Continuous Mode	: disabled
+	//		Continuous Mode	: enabled
 	ADC_setInterruptSource(myADC0_BASE, ADC_INT_NUMBER1, ADC_SOC_NUMBER0);
 	ADC_enableInterrupt(myADC0_BASE, ADC_INT_NUMBER1);
 	ADC_clearInterruptStatus(myADC0_BASE, ADC_INT_NUMBER1);
-	ADC_disableContinuousMode(myADC0_BASE, ADC_INT_NUMBER1);
+	ADC_enableContinuousMode(myADC0_BASE, ADC_INT_NUMBER1);
 
 	//myADC1 initialization
 
@@ -109,10 +109,10 @@ void ADC_init(){
 	// Configures a start-of-conversion (SOC) in the ADC and its interrupt SOC trigger.
 	// 	  	SOC number		: 0
 	//	  	Trigger			: ADC_TRIGGER_EPWM1_SOCA
-	//	  	Channel			: ADC_CH_ADCIN2
+	//	  	Channel			: ADC_CH_ADCIN3
 	//	 	Sample Window	: 15 SYSCLK cycles
 	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
-	ADC_setupSOC(myADC1_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN2, 15U);
+	ADC_setupSOC(myADC1_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN3, 15U);
 	ADC_setInterruptSOCTrigger(myADC1_BASE, ADC_SOC_NUMBER0, ADC_INT_SOC_TRIGGER_NONE);
 
 }
