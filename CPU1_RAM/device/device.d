@@ -55,7 +55,7 @@ device/device.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/
 device/device.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/inc/hw_eqep.h
 device/device.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/flash.h
 device/device.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/inc/hw_flash.h
-device/device.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/gpio.h
+device/device.obj: D:/ti/CCS_workspace/adc_dma_soc_multiple_epwm/gpio.h
 device/device.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/inc/hw_gpio.h
 device/device.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/inc/hw_xint.h
 device/device.obj: D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/xbar.h
@@ -195,7 +195,7 @@ D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/flash.h:
 
 D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/inc/hw_flash.h:
 
-D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/gpio.h:
+D:/ti/CCS_workspace/adc_dma_soc_multiple_epwm/gpio.h:
 
 D:/ti/c2000/C2000Ware_4_00_00_00/driverlib/f2837xd/driverlib/inc/hw_gpio.h:
 

@@ -10,7 +10,9 @@ GEN_OPTS__FLAG :=
 GEN_CMDS__FLAG := 
 
 ORDERED_OBJS += \
-"./adc_multiple_soc_epwm.obj" \
+"./adc_dma_multiple_soc_epwm.obj" \
+"./gpio.obj" \
+"./syscfg/board.obj" \
 "./device/F2837xD_CodeStartBranch.obj" \
 "./device/device.obj" \
 "../2837xD_RAM_lnk_cpu1.cmd" \
@@ -126,43 +128,44 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-adc_soc_multiple_epwm.out \
+adc_dma_soc_multiple_epwm.out \
 
 EXE_OUTPUTS__QUOTED += \
-"adc_soc_multiple_epwm.out" \
+"adc_dma_soc_multiple_epwm.out" \
 
 BIN_OUTPUTS += \
-adc_soc_multiple_epwm.hex \
+adc_dma_soc_multiple_epwm.hex \
 
 BIN_OUTPUTS__QUOTED += \
-"adc_soc_multiple_epwm.hex" \
+"adc_dma_soc_multiple_epwm.hex" \
 
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "adc_soc_multiple_epwm.out"
+	@$(MAKE) --no-print-directory -Onone "adc_dma_soc_multiple_epwm.out"
 
 # Tool invocations
-adc_soc_multiple_epwm.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
+adc_dma_soc_multiple_epwm.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: C2000 Linker'
-	"D:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"adc_soc_multiple_epwm.map" --heap_size=0x200 --stack_size=0x3F8 --warn_sections -i"D:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"D:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="adc_soc_multiple_epwm_linkInfo.xml" --entry_point=code_start --rom_model -o "adc_soc_multiple_epwm.out" $(ORDERED_OBJS)
+	"D:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --define=_LAUNCHXL_F28379D --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"adc_dma_soc_multiple_epwm.map" --heap_size=0x200 --stack_size=0x3F8 --warn_sections -i"D:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"D:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="adc_dma_soc_multiple_epwm_linkInfo.xml" --entry_point=code_start --rom_model -o "adc_dma_soc_multiple_epwm.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
-adc_soc_multiple_epwm.hex: $(EXE_OUTPUTS)
+adc_dma_soc_multiple_epwm.hex: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: C2000 Hex Utility'
-	"D:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/hex2000" --diag_wrap=off -o "adc_soc_multiple_epwm.hex" $(EXE_OUTPUTS__QUOTED)
+	"D:/ti/ccs1210/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/hex2000" --diag_wrap=off -o "adc_dma_soc_multiple_epwm.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "adc_multiple_soc_epwm.obj" "device\F2837xD_CodeStartBranch.obj" "device\device.obj" 
-	-$(RM) "adc_multiple_soc_epwm.d" "device\device.d" 
+	-$(RM) $(GEN_MISC_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
+	-$(RM) "adc_dma_multiple_soc_epwm.obj" "gpio.obj" "syscfg\board.obj" "device\F2837xD_CodeStartBranch.obj" "device\device.obj" 
+	-$(RM) "adc_dma_multiple_soc_epwm.d" "gpio.d" "syscfg\board.d" "device\device.d" 
 	-$(RM) "device\F2837xD_CodeStartBranch.d" 
+	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
 	-@echo 'Finished clean'
 	-@echo ' '
 
