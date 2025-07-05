@@ -1,0 +1,18 @@
+/*
+ * my_PeripheralControl_lib.h
+ *
+ *  Created on: 2024Äê7ÔÂ19ÈÕ
+ *      Author: Lenovo
+ */
+
+#ifndef INIT_CONCLUSION_MY_LIB_PERIPHERAL_CONTROL_MY_PERIPHERALCONTROL_LIB_H_
+#define INIT_CONCLUSION_MY_LIB_PERIPHERAL_CONTROL_MY_PERIPHERALCONTROL_LIB_H_
+
+#include "AD9833.h"
+#include "BlueTooth_HC_06.h"
+
+
+
+
+
+#endif /* INIT_CONCLUSION_MY_LIB_PERIPHERAL_CONTROL_MY_PERIPHERALCONTROL_LIB_H_ */
