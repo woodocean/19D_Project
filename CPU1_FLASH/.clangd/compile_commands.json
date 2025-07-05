@@ -1,0 +1,652 @@
+[
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/common/examples_setup.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32_mag.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32_mag_TMU0.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32_phase.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32_phase_TMU0.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32_sincostable.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32_twiddleFactors.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32_win.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32i.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32it.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32s_mag.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32s_mag_TMU0.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32t.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32u.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/CFFT_f32ut.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/ICFFT_f32.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/ICFFT_f32t.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_adc_f32.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_adc_f32u.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32_adc_win.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32_mag.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32_mag_TMU0.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32_phase.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32_phase_TMU0.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32_sincostable.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32_twiddleFactors.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32_win.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32s_mag.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32s_mag_TMU0.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/RFFT_f32u.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/cfft_f32_brev.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/cfft_f32_pack.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/fft/cfft_f32_unpack.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/filter/FIR_f32.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/filter/iir_f32.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/utility/memcpy_fast.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/utility/memcpy_fast_far.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/utility/memset_fast.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/abs_SP_CV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/abs_SP_CV_2.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/abs_SP_CV_TMU0.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/add_SP_CSxCV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/add_SP_CVxCV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/iabs_SP_CV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/iabs_SP_CV_2.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/iabs_SP_CV_TMU0.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mac_SP_CVxCV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mac_SP_RVxCV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mac_SP_i16RVxCV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/maxidx_SP_RV_2.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mean_SP_CV_2.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/median_SP_RV.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/median_noreorder_SP_RV.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mpy_SP_CSxCS.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mpy_SP_CVxCV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mpy_SP_CVxCVC.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mpy_SP_RMxRM.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mpy_SP_RMxRM_2.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mpy_SP_RSxRV_2.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mpy_SP_RSxRVxRV_2.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mpy_SP_RVxCV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/mpy_SP_RVxRV_2.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/qsort_SP_RV.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/rnd_SP_RS.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/sub_SP_CSxCV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/fpu32/vector/sub_SP_CVxCV.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/main.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Adc.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_CodeStartBranch.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_CpuTimers.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_DBGIER.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_DefaultISR.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Dma.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_ECap.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_EPwm.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_EQep.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Emif.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_GlobalVariableDefs.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Gpio.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_I2C.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Ipc.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Ipc_Driver.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Ipc_Driver_Lite.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Ipc_Driver_Util.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Mcbsp.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_PieCtrl.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_PieVect.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Sci.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Spi.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_SysCtrl.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_TempSensorConv.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_Upp.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_can.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_sci_io.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_sdfm_drivers.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_struct.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\"",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/F2837xD_usDelay.asm"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source/device.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/adc.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/asysctl.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/can.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/cla.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/clb.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/cmpss.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/cputimer.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/dac.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/dcsm.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/dma.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/ecap.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/emif.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/epwm.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/eqep.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/flash.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/gpio.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/hrpwm.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/i2c.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/interrupt.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/ipc.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/mcbsp.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/memcfg.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/sci.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/sdfm.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/spi.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/sysctl.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/upp.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/usb.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/version.c"
+   },
+   {
+      "directory" : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH",
+      "command"   : "clang++ -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1\" -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/device\" -I\"D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/\" -I\"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include\" -DDEBUG -D_FLASH -DCPU1 -I\"D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/CPU1_FLASH/syscfg\" -xc",
+      "file"      : "D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/source2/xbar.c"
+   }
+]

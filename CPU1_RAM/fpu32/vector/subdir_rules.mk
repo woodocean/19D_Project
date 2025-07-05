@@ -1,0 +1,22 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Each subdirectory must supply rules for building sources it contributes
+fpu32/vector/%.obj: ../fpu32/vector/%.asm $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/device" --include_path="D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/" --include_path="D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/include/inc2" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/include/inc1" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32/vector" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32/utility" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32/filter" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32/fft" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/common" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/source2" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/source" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/source2/inc" --define=DEBUG --define=CPU1 --define=_DUAL_HEADERS --define=_LAUNCHXL_F28379D --define=ADCA --define=__TMS320C28XX_TMU__ --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="fpu32/vector/$(basename $(<F)).d_raw" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/CPU1_RAM/syscfg" --obj_directory="fpu32/vector" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+fpu32/vector/%.obj: ../fpu32/vector/%.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C2000 Compiler'
+	"D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -Ooff --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/device" --include_path="D:/ti/c2000/C2000Ware_5_05_00_00/driverlib/f2837xd/driverlib/" --include_path="D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/include/inc2" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/include/inc1" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32/vector" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32/utility" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32/filter" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32/fft" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/fpu32" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/common" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/source2" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/source" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/source2/inc" --define=DEBUG --define=CPU1 --define=_DUAL_HEADERS --define=_LAUNCHXL_F28379D --define=ADCA --define=__TMS320C28XX_TMU__ --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="fpu32/vector/$(basename $(<F)).d_raw" --include_path="D:/ti/CCS_workspace/workspace_dual/empty_driverlib_project_v1/CPU1_RAM/syscfg" --obj_directory="fpu32/vector" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+

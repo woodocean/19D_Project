@@ -1,0 +1,210 @@
+# FIXED
+
+common/examples_setup.obj: ../common/examples_setup.c
+common/examples_setup.obj: ../common/examples_setup.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F28x_Project.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Cla_typedefs.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_device.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/assert.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/_ti_config.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/linkage.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdarg.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/sys/_types.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/sys/cdefs.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/machine/_types.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdbool.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stddef.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdint.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/_stdint40.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/sys/stdint.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/machine/_stdint.h
+common/examples_setup.obj: D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/sys/_stdint.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_adc.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_analogsubsys.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_cla.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_clb.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_clbxbar.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_cmpss.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_cputimer.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_dac.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_dcsm.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_dma.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_ecap.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_emif.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_epwm.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_epwm_xbar.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_eqep.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_flash.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_gpio.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_i2c.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_input_xbar.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_ipc.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_mcbsp.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_memconfig.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_nmiintrupt.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_otp.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_output_xbar.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_piectrl.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_pievect.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_sci.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_sdfm.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_spi.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_sysctrl.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_upp.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_xbar.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_xint.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_can.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Examples.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_GlobalPrototypes.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_cputimervars.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Cla_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_EPwm_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Adc_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Emif_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Gpio_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_I2c_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Ipc_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Pie_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Dma_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_SysCtrl_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Upp_defines.h
+common/examples_setup.obj: D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_defaultisr.h
+
+../common/examples_setup.c:
+
+../common/examples_setup.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F28x_Project.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Cla_typedefs.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_device.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/assert.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/_ti_config.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/linkage.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdarg.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/sys/_types.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/sys/cdefs.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/machine/_types.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdbool.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stddef.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdint.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/_stdint40.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/sys/stdint.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/machine/_stdint.h:
+
+D:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/sys/_stdint.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_adc.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_analogsubsys.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_cla.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_clb.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_clbxbar.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_cmpss.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_cputimer.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_dac.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_dcsm.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_dma.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_ecap.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_emif.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_epwm.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_epwm_xbar.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_eqep.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_flash.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_gpio.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_i2c.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_input_xbar.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_ipc.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_mcbsp.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_memconfig.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_nmiintrupt.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_otp.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_output_xbar.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_piectrl.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_pievect.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_sci.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_sdfm.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_spi.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_sysctrl.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_upp.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_xbar.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_xint.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc2/F2837xD_can.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Examples.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_GlobalPrototypes.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_cputimervars.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Cla_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_EPwm_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Adc_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Emif_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Gpio_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_I2c_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Ipc_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Pie_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Dma_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_SysCtrl_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_Upp_defines.h:
+
+D:/ti/CCS_workspace/workspace_FFT/empty_driverlib_project_v1/include/inc1/F2837xD_defaultisr.h:
+
